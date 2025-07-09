@@ -11,7 +11,6 @@ const app = express();
 // app.use(cors({
 //       origin: 'http://localhost:4000'
 // }));
-const cors = require('cors');
 app.use(cors());
 
 app.use(bodyParser.json());
