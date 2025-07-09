@@ -1,0 +1,26 @@
+# Root-level ignores (optional logs, env, IDE files)
+*.log
+.env
+.DS_Store
+node_modules/
+dist/
+build/
+coverage/
+
+# Ignore OS files
+Thumbs.db
+
+# Ignore .env files anywhere
+**/.env
+
+# === React App (e.g., in /client) ===
+client/node_modules/
+client/build/
+client/.env
+
+# === Node.js Backend (e.g., in /server) ===
+server/node_modules/
+server/.env
+
+# VSCode config (optional)
+.vscode/
