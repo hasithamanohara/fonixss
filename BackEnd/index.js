@@ -8,9 +8,12 @@ const contactsRouter = require('./routes/routes.js');
 const app = express();
 
 // Middleware
-app.use(cors({
-      origin: 'http://localhost:4000'
-}));
+// app.use(cors({
+//       origin: 'http://localhost:4000'
+// }));
+const cors = require('cors');
+app.use(cors());
+
 app.use(bodyParser.json());
 
 // MongoDB Connection

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:4000/api/contacts';
+const API_URL = 'https://fonixss-api.onrender.com/api/contacts';
 
 // Create axios instance with common headers
 const api = axios.create({
